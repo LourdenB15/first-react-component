@@ -1,13 +1,62 @@
-header {
+
+/* ------LAYOUT------ */
+
+.container {
     background-color: #101405;
     color: #ecf2d9;
     display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+/* ------HEADER------ */
+
+header {
+    display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid #ffffff1a;
 }
 
 h1 {
     padding: 1.2vw 5%;
     font-weight: 700;
     font-size: 30px;
+}
+
+/* ------PROFILE------ */
+
+.profile {
+    padding: 0 10%;
+    display: flex;
+    flex: 1;
+}
+
+.profile-picture {
+    width: 300px;
+    height: auto;
+    background: linear-gradient(120deg, #cfe684, #c1ef2a);
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.wrapper {
+  gap: 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-me {
+    flex: 1;
+    min-width: 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    
 }

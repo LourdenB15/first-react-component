@@ -1,9 +1,16 @@
-import { useState } from 'react';
+import "./styles/reset.css";
+import "./styles/styles.css";
 import Header from './components/Header';
+import Profile from './components/Profile';
 
 function App() {
   return (
-   <Header />
+    <div className="container">
+      <Header />
+      <Profile />
+      {/* 
+      <Footer /> */}
+    </div>
   )
 }
 
