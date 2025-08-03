@@ -63,7 +63,7 @@ h1 {
     text-align: center;
 }
 
-/* ------PROFILE------ */
+/* ------SKILLS------ */
 
 .skills {
     text-align: center;
@@ -95,3 +95,24 @@ h1 {
         height: 100px;
     }
 }
+
+/* ------BUTTON------ */
+
+a {
+    padding: 10px 20px;
+    background-color: #89b300;
+    color: #2a00b3;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 200ms;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #b0e600;
+}
+
+a:active {
+    background-color: #759900;
+}
+
