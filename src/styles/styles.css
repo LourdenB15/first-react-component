@@ -47,11 +47,11 @@ h1 {
 }
 
 .wrapper {
-  gap: 5vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
 }
 
 .about-me {
@@ -61,4 +61,37 @@ h1 {
     flex-direction: column;
     gap: 20px;
     text-align: center;
+}
+
+/* ------PROFILE------ */
+
+.skills {
+    text-align: center;
+    h2 {
+        font-weight: 700;
+        font-size: 30px;
+        margin: 1em 0;    }
+}
+
+.skills-list-wrapper {
+    display: flex;
+    gap: 5vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skills-list {
+    background-color: #cfe68446;
+    padding: 1em;
+    border-radius: 1em;
+    max-width: 505px;
+    min-width: 380px;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    * {
+        width: auto;
+        height: 100px;
+    }
 }

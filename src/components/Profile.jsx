@@ -2,6 +2,7 @@ import "../styles/reset.css";
 import "../styles/styles.css";
 import ProfilePicture from "./ProfilePicture";
 import AboutMe from "./AboutMe";
+import Skills from "./Skills";
 
 function Profile() {
     return (
@@ -9,6 +10,7 @@ function Profile() {
             <div className="wrapper">
             <ProfilePicture />
             <AboutMe />
+            <Skills />
             </div>
         </div>
     )
